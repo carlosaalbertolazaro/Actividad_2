@@ -3,87 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carlos | Ingeniero en Tecnologias de la Informacion e innovacion digital</title>
-     <link rel="stylesheet" href="/CSS/estilo.css">
+    <meta name="description" content="Portafolio de Carlos Alberto Lazaro Aguilar, estudiante de Ingeniería en Tecnologías de la Información e Innovación Digital.">
+    <title>Carlos Alberto Lazaro Aguilar | Ingeniería en TI e Innovación Digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/estilo.css">
 </head>
 <body>
 
     <header>
         <nav class="nav-container">
-            <a href="#" class="logo">Universidad Politecnica De Chiapas<span> IT2ID</span></a>
+            <a href="#sobre-mi" class="logo">Universidad Politécnica de Chiapas<span> IT2ID</span></a>
+            <button class="menu-btn" aria-label="Abrir menú" aria-expanded="false">☰</button>
             <ul class="nav-links">
                 <li><a href="#sobre-mi">Sobre mí</a></li>
                 <li><a href="#lenguajes">Lenguajes</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#eventos">Eventos</a></li>
                 <li><a href="#certificaciones">Certificaciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#publicaciones">Publicaciones</a></li>
             </ul>
         </nav>
     </header>
 
+    <main>
     <section id="sobre-mi">
         <div class="sobre-mi-container">
             <div class="sobre-mi-texto">
-                <p class="hero-sub">Hola, soy carlos Alberto</p>
-                <h1 class="hero-titulo">Carlos Alberto Lazaro Aguilar.<br></h1>
+                <p class="hero-sub">Hola, soy Carlos Alberto</p>
+                <h1 class="hero-titulo">Carlos Alberto Lazaro Aguilar</h1>
                 <p class="hero-descripcion">
-                    Soy Ingeniero en Tecnologias de la Informacion e Innovacion digital, con 1 año de experiencia en el campo de infraestructura, administracion de redes y ciberseguridad.
-                    Actualmente me estoy formando Professionalmente en la Universidad Politecnica De Chiapas en el area de Tecnologias de la Informacion e Innovacion Digital.
+                    Soy estudiante de Ingeniería en Tecnologías de la Información e Innovación Digital en la Universidad Politécnica de Chiapas, con 1 año de experiencia en infraestructura, administración de redes y ciberseguridad.
                 </p>
-                <div>
+                <div class="hero-botones">
                     <a href="#proyectos" class="btn-cta">Ver mis proyectos</a>
+                    <a href="#contacto" class="btn-cta">Contáctame</a>
                 </div>
             </div>
-            
+
             <div class="sobre-mi-foto-wrapper">
                 <div class="sobre-mi-foto-marco">
-                    <img class="perfil-img" src="/Img/fotomia.jpeg" alt="ese soy yo">
+                    <img class="perfil-img" src="/Img/fotomia.jpeg" alt="Foto de Carlos Alberto Lazaro Aguilar">
                 </div>
             </div>
         </div>
     </section>
 
     <section id="lenguajes">
-        <h2 class="titulo-seccion">Lenguajes de Programación y Tecnologias que conozco</h2>
+        <h2 class="titulo-seccion">Lenguajes y tecnologías que conozco</h2>
         <div class="skills-grid">
             <div class="skill-card">
-                <img src="/Img/html.png" alt="Descripción del icono" width="55" height="auto">
+                <img src="/Img/html.png" alt="Logo de HTML" width="55">
                 <p>HTML</p>
             </div>
             <div class="skill-card">
-             <img src="/Img/css.png" alt="Descripción del icono" width="55" height="auto">
+                <img src="/Img/css.png" alt="Logo de CSS" width="55">
                 <p>CSS</p>
             </div>
             <div class="skill-card">
-                 <img src="/Img/Cmasmas.png" alt="Descripción del icono" width="40" height="auto">
+                <img src="/Img/Cmasmas.png" alt="Logo de C++" width="40">
                 <p>C++</p>
             </div>
             <div class="skill-card">
-                 <img src="/Img/java.png" alt="Descripción del icono" width="85" height="auto">
+                <img src="/Img/java.png" alt="Logo de Java" width="85">
                 <p>Java</p>
             </div>
             <div class="skill-card">
-                 <img src="/Img/python.png" alt="Descripción del icono" width="50" height="auto">
+                <img src="/Img/python.png" alt="Logo de Python" width="50">
                 <p>Python</p>
             </div>
             <div class="skill-card">
-                 <img src="/Img/csharp.png" alt="Descripción del icono" width="75" height="auto">
+                <img src="/Img/csharp.png" alt="Logo de C#" width="75">
                 <p>C#</p>
             </div>
-            
         </div>
     </section>
 
     <section id="proyectos">
-        <h2 class="titulo-seccion">Mis Proyectos</h2>
+        <h2 class="titulo-seccion">Mis proyectos</h2>
         <div class="proyectos-grid">
             <div class="proyecto-card">
                 <div class="proyecto-info">
-                    <h3 class="proyecto-titulo">Modelo de sistema de cobro de caferia universitaria</h3>
-                    <p class="proyecto-desc">Diseño de un sistema de cafeteria utilizando java como base implementado la programacion orientada a objetos</p>
+                    <h3 class="proyecto-titulo">Modelo de sistema de cobro de cafetería universitaria</h3>
+                    <p class="proyecto-desc">Diseño de un sistema de cobro para una cafetería utilizando Java como base e implementando programación orientada a objetos.</p>
                     <ul class="proyecto-tech">
                         <li>Java</li>
-                        <li>IDE Netbeans</li>
+                        <li>IDE NetBeans</li>
                         <li>Visual Studio Code</li>
                     </ul>
                 </div>
@@ -91,14 +98,12 @@
             <div class="proyecto-card">
                 <div class="proyecto-info">
                     <h3 class="proyecto-titulo">Horizon</h3>
-                    <p class="proyecto-desc">Horizon es un proyecto que resuelve la informalidad que se presenta al querer practicar deportes, clases o eventos al aire libre con expertos centralizando todo en un solo sistema
-                        mitigando las informalidades al agendar una cita o clase mejorando la eficiencia y seguridad para los usuarios que a su vez genera más oportunidades de empleos.
-                    </p>
+                    <p class="proyecto-desc">Horizon resuelve la informalidad al practicar deportes, tomar clases o realizar actividades al aire libre con expertos, centralizando todo en un solo sistema. Facilita agendar citas o clases, mejora la eficiencia y la seguridad de los usuarios y genera más oportunidades de empleo.</p>
                     <ul class="proyecto-tech">
                         <li>JavaScript</li>
                         <li>HTML y CSS</li>
                         <li>AWS</li>
-                        <li>Mysql</li>
+                        <li>MySQL</li>
                     </ul>
                 </div>
             </div>
@@ -110,29 +115,29 @@
         <div class="eventos-grid">
             <div class="evento-card">
                 <div class="evento-contenedor-img">
-                    <img class="evento-img" src="/Img/Cyberseguridad.png"" alt="Foro Cyberseguridad">
+                    <img class="evento-img" src="/Img/Cyberseguridad.png" alt="Foro estatal de ciberseguridad" loading="lazy">
                 </div>
                 <div class="evento-info">
-                    <span class="evento-tag">Foro de ciberseguridad</span>
+                    <span class="evento-tag">Talleres</span>
                     <h3 class="evento-titulo">Foro estatal de ciberseguridad</h3>
-                    <p class="evento-desc">Participación en impartir los talleres de ciberseguridad</p>
+                    <p class="evento-desc">Participación impartiendo talleres de ciberseguridad.</p>
                 </div>
             </div>
             <div class="evento-card">
                 <div class="evento-contenedor-img">
-                    <img class="evento-img" src="/Img/Docker.jpeg" alt="Conferencia">
+                    <img class="evento-img" src="/Img/Docker.jpeg" alt="Presentación sobre Docker y Kubernetes" loading="lazy">
                 </div>
                 <div class="evento-info">
-                    <span class="evento-tag">Charla y Presentacion de proyecto Instituto Tecnológico de Tuxtla Gutiérrez</span>
-                    <h3 class="evento-titulo">Implementación de Docker y Kubernetes para el aislamiento de microservicios e infraestructura de red segura.</h3>
-                    <p class="evento-desc">Presentación y demostración práctica de un proyecto de arquitectura informática enfocado en la reducción de la superficie de ataque mediante tecnologías de contenedorización y orquestación.</p>
+                    <span class="evento-tag">Charla · ITTG</span>
+                    <h3 class="evento-titulo">Docker y Kubernetes para aislar microservicios y asegurar la red</h3>
+                    <p class="evento-desc">Presentación y demostración práctica en el Instituto Tecnológico de Tuxtla Gutiérrez de un proyecto de arquitectura informática enfocado en reducir la superficie de ataque mediante contenedorización y orquestación.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="certificaciones">
-        <h2 class="titulo-seccion">Certificaciones y Cursos</h2>
+        <h2 class="titulo-seccion">Certificaciones y cursos</h2>
         <div class="cert-lista">
             <div class="cert-item">
                 <div class="cert-info">
@@ -148,41 +153,78 @@
                 </div>
                 <div class="cert-fecha">2026</div>
             </div>
-             <div class="cert-item">
+            <div class="cert-item">
                 <div class="cert-info">
                     <h3>AWS Academy Graduate - Cloud Foundations - Training Badge</h3>
-                    <p> AWS Academy Cloud Foundations course</p>
+                    <p>AWS Academy Cloud Foundations course</p>
                 </div>
                 <div class="cert-fecha">2026</div>
             </div>
             <div class="cert-item">
                 <div class="cert-info">
                     <h3>Introduction to IoT</h3>
-                    <p> Cisco</p>
+                    <p>Cisco</p>
                 </div>
                 <div class="cert-fecha">2025</div>
             </div>
             <div class="cert-item">
                 <div class="cert-info">
                     <h3>Networking Basics</h3>
-                    <p> Cisco</p>
+                    <p>Cisco</p>
                 </div>
                 <div class="cert-fecha">2025</div>
             </div>
             <div class="cert-item">
                 <div class="cert-info">
                     <h3>Seguridad digital para tu día a día</h3>
-                    <p> SOA</p>
+                    <p>SOA</p>
                 </div>
                 <div class="cert-fecha">2025</div>
             </div>
-
         </div>
     </section>
+
+    <section id="publicaciones">
+        <h2 class="titulo-seccion">Publicaciones</h2>
+        <div class="proyectos-grid">
+            <article class="proyecto-card">
+                <div class="proyecto-info">
+                    <time class="publicacion-fecha" datetime="2026-10-01">1 de octubre de 2026</time>
+                    <h3 class="proyecto-titulo">Título de tu publicación</h3>
+                    <p class="proyecto-desc">Resumen de dos o tres líneas sobre lo que trata.</p>
+                    <a href="#" class="btn-cta">Leer más</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2 class="titulo-seccion">Contacto</h2>
+        <p class="contacto-texto">¿Tienes un proyecto, una idea o quieres colaborar? Escríbeme y con gusto conversamos.</p>
+        <ul class="contacto-lista">
+            <li><a href="mailto:carlosaalbertolazaro@gmail.com">Correo</a></li>
+            <li><a href="https://github.com/carlosaalbertolazaro" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="www.linkedin.com/in/carlos-alberto-lazaro-aguilar-5ab158163" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+    </section>
+    </main>
 
     <footer>
         <p>&copy; 2026 Carlos Alberto Lazaro Aguilar. Diseñado y desarrollado desde cero.</p>
     </footer>
+
+    <script>
+        const btn = document.querySelector('.menu-btn');
+        const menu = document.querySelector('.nav-links');
+        btn.addEventListener('click', () => {
+            const abierto = menu.classList.toggle('abierto');
+            btn.setAttribute('aria-expanded', abierto);
+        });
+        menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+            menu.classList.remove('abierto');
+            btn.setAttribute('aria-expanded', 'false');
+        }));
+    </script>
 
 </body>
 </html>
